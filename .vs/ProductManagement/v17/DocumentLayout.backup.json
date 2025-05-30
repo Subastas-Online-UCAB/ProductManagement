@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A85F970-2100-4D6E-91ED-3F5B7520D7FA}|ProductManagement\\ProductManagement.csproj|c:\\users\\xrixer\\videos\\productmanagement\\productmanagement\\productmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A85F970-2100-4D6E-91ED-3F5B7520D7FA}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\productmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductManagement",
+              "DocumentMoniker": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
+              "RelativeDocumentMoniker": "ProductManagement\\ProductManagement.csproj",
+              "ToolTip": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
+              "RelativeToolTip": "ProductManagement\\ProductManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-30T01:35:59.642Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
