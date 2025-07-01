@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ProductManagement.Dominio.Entidades;
 
-namespace ProductManagement.Infraestructura.Persistencia
+namespace UsuarioServicio.Infraestructura.Persistencia
 {
     public class ApplicationDbContext : DbContext
     {
@@ -19,9 +19,10 @@ namespace ProductManagement.Infraestructura.Persistencia
         {
             base.OnModelCreating(modelBuilder);
 
+            // Opcional: Cambiar nombre de la tabla si quieres
             modelBuilder.Entity<Producto>().ToTable("Productos");
 
-          
+            // Opcional: Configuraciones de columnas si quieres afinar
             modelBuilder.Entity<Producto>(entity =>
             {
               

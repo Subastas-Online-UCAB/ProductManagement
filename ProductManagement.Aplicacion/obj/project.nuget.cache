@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "+pcdEy7pZn8=",
+  "dgSpecHash": "k4IOFDe0mkI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Xrixer\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Xrixer\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Xrixer\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\Xrixer\\.nuget\\packages\\masstransit\\8.4.1\\masstransit.8.4.1.nupkg.sha512",
-    "C:\\Users\\Xrixer\\.nuget\\packages\\masstransit.abstractions\\8.5.0\\masstransit.abstractions.8.5.0.nupkg.sha512",
+    "C:\\Users\\Xrixer\\.nuget\\packages\\masstransit.abstractions\\8.4.1\\masstransit.abstractions.8.4.1.nupkg.sha512",
     "C:\\Users\\Xrixer\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
     "C:\\Users\\Xrixer\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Xrixer\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",

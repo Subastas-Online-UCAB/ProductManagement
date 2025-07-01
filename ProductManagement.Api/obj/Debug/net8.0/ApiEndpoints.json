@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "ProductManagement.Api.Controladores.ProductosControlador",
+    "ContainingType": "ProductManagement.Api.Controllers.ProductosController",
     "Method": "CrearProducto",
-    "RelativePath": "api/ProductosControlador",
+    "RelativePath": "api/Productos",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -13,12 +13,41 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProductManagement.Api.Controllers.ProductosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Productos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProductManagement.Api.Controladores.ProductosControlador",
+    "ContainingType": "ProductManagement.Api.Controllers.ProductosController",
     "Method": "GetById",
-    "RelativePath": "api/ProductosControlador/{id}",
+    "RelativePath": "api/Productos/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -29,12 +58,18 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "ProductManagement.Api.Controladores.ProductosControlador",
+    "ContainingType": "ProductManagement.Api.Controllers.ProductosController",
     "Method": "ObtenerPorId",
-    "RelativePath": "api/ProductosControlador/buscar/{id}",
+    "RelativePath": "api/Productos/buscar/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -45,12 +80,31 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
   },
   {
-    "ContainingType": "ProductManagement.Api.Controladores.ProductosControlador",
+    "ContainingType": "ProductManagement.Api.Controllers.ProductosController",
     "Method": "EditarProducto",
-    "RelativePath": "api/ProductosControlador/editar",
+    "RelativePath": "api/Productos/editar",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -61,12 +115,18 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "ProductManagement.Api.Controladores.ProductosControlador",
+    "ContainingType": "ProductManagement.Api.Controllers.ProductosController",
     "Method": "Delete",
-    "RelativePath": "api/ProductosControlador/eliminar/{id}",
+    "RelativePath": "api/Productos/eliminar/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -82,7 +142,22 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
   },
   {
     "ContainingType": "ProductManagement.Api.Controladores.WeatherForecastController",

@@ -14,7 +14,6 @@ namespace ProductManagement.Dominio.Repositorios
         Task<Producto?> ObtenerPorIdAsync(Guid id, CancellationToken cancellationToken);
         Task ActualizarAsync(Producto producto, CancellationToken cancellationToken);
         Task EliminarProductoAsync(Guid idProducto, Guid idUsuario, CancellationToken cancellationToken);
-
         Task<Producto?> ObtenerProductoPorIdAsync(Guid id, CancellationToken cancellationToken);
 
 

@@ -22,6 +22,7 @@ namespace ProductManagement.Dominio.Entidades
             Descripcion = descripcion;
             Cantidad = cantidad;
         }
+
     }
 
 }

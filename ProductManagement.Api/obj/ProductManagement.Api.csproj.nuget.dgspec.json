@@ -180,17 +180,9 @@
               "target": "Package",
               "version": "[8.4.1, )"
             },
-            "MassTransit.Abstractions": {
-              "target": "Package",
-              "version": "[8.5.0, )"
-            },
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
-            },
-            "MediatR.Contracts": {
-              "target": "Package",
-              "version": "[2.0.1, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -267,6 +259,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

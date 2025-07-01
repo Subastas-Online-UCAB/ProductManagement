@@ -1,9 +1,4 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ProductManagement.Aplicacion.Commands;
 using ProductManagement.Dominio.Eventos;
 using ProductManagement.Aplicacion.Comun;
@@ -26,21 +21,37 @@ namespace ProductManagement.Aplicacion.Servicios
 
         public async Task<MessageResponse> Handle(EditarProductoCommand request, CancellationToken cancellationToken)
         {
+            // Buscar el producto 
             var producto = await _productoRepository.ObtenerPorIdAsync(request.ProductoId, cancellationToken);
             if (producto == null)
                 return MessageResponse.CrearError("El Producto no existe.");
 
-            producto.Editar(request.Nombre, request.Descripcion, request.Cantidad);
+            // Validar que el usuario sea dueño del producto
+            if (producto.IdUsuario != request.UsuarioId)
+                return MessageResponse.CrearError("No tienes permiso para editar esta subasta.");
+
+            // Aplicar los cambios
+            producto.Editar(
+                request.Nombre,
+                request.Descripcion,
+                request.Cantidad
+            );
+
+            // Persistir cambios
             await _productoRepository.ActualizarAsync(producto, cancellationToken);
 
-            await _eventPublisher.PublicarProductoEditado( new ProductoEditado
+            // Publicar evento si es necesario
+            await _eventPublisher.PublicarProductoEditado(new ProductoEditado
             {
+                IdProducto = producto.IdProducto,
                 Nombre = producto.Nombre,
                 Descripcion = producto.Descripcion,
+                Tipo = producto.Tipo,
                 Cantidad = producto.Cantidad,
+                UsuarioId = producto.IdUsuario
             });
 
-            return MessageResponse.CrearExito("Subasta editada exitosamente.");
+            return MessageResponse.CrearExito("Producto editado exitosamente.");
         }
     }
 }

@@ -8,10 +8,10 @@ namespace ProductManagement.Aplicacion.Dto
 {
     public class ProductoCargadoDto
     {
-        public Guid IdProducto { get; set; }
-        public string Nombre { get; set; }
-        public string Descripcion { get; set; }
-        public string Tipo { get; set; }
+        public Guid Id { get; set; }
+        public string Nombre { get; set; } = null!;
+        public string Descripcion { get; set; } = null!;
+        public string Tipo { get; set; } = null!;
         public decimal Cantidad { get; set; }
         public Guid IdUsuario { get; set; }
     }

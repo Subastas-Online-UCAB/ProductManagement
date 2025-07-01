@@ -24,7 +24,7 @@ namespace ProductManagement.Aplicacion.Handlers
 
             return new ProductoCargadoDto
             {
-                IdProducto = producto.IdProducto,
+                Id = producto.IdProducto,
                 Nombre = producto.Nombre,
                 Descripcion= producto.Descripcion,
                 Tipo = producto.Tipo,

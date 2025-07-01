@@ -5,10 +5,10 @@
     "version": "v1"
   },
   "paths": {
-    "/api/ProductosControlador": {
+    "/api/Productos": {
       "post": {
         "tags": [
-          "ProductosControlador"
+          "Productos"
         ],
         "requestBody": {
           "content": {
@@ -30,16 +30,57 @@
           }
         },
         "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "text/plain": {
+                "schema": { }
+              },
+              "application/json": {
+                "schema": { }
+              },
+              "text/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Productos"
+        ],
+        "responses": {
           "200": {
             "description": "OK"
           }
         }
       }
     },
-    "/api/ProductosControlador/{id}": {
+    "/api/Productos/{id}": {
       "get": {
         "tags": [
-          "ProductosControlador"
+          "Productos"
         ],
         "parameters": [
           {
@@ -59,10 +100,10 @@
         }
       }
     },
-    "/api/ProductosControlador/editar": {
+    "/api/Productos/editar": {
       "put": {
         "tags": [
-          "ProductosControlador"
+          "Productos"
         ],
         "requestBody": {
           "content": {
@@ -90,10 +131,10 @@
         }
       }
     },
-    "/api/ProductosControlador/eliminar/{id}": {
+    "/api/Productos/eliminar/{id}": {
       "delete": {
         "tags": [
-          "ProductosControlador"
+          "Productos"
         ],
         "parameters": [
           {
@@ -115,16 +156,36 @@
           }
         ],
         "responses": {
-          "200": {
-            "description": "OK"
+          "204": {
+            "description": "No Content"
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/ProductosControlador/buscar/{id}": {
+    "/api/Productos/buscar/{id}": {
       "get": {
         "tags": [
-          "ProductosControlador"
+          "Productos"
         ],
         "parameters": [
           {
@@ -139,7 +200,38 @@
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": { }
+              },
+              "application/json": {
+                "schema": { }
+              },
+              "text/json": {
+                "schema": { }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
           }
         }
       }
@@ -241,6 +333,33 @@
           }
         },
         "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
       },
       "WeatherForecast": {
         "type": "object",

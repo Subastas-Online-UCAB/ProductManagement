@@ -3,7 +3,7 @@ using ProductManagement.Aplicacion.Commands;
 using ProductManagement.Dominio.Repositorios;
 using ProductManagement.Infraestructura.Repositorios;
 using Microsoft.EntityFrameworkCore;
-using ProductManagement.Infraestructura.Persistencia;
+using UsuarioServicio.Infraestructura.Persistencia;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using MassTransit;
 using ProductManagement.Aplicacion.Sagas;
@@ -13,6 +13,7 @@ using ProductManagement.Infraestructura.MongoDB;
 using ProductManagement.Infraestructura.Consumidor;
 using ProductManagement.Dominio.Interfaces;
 using ProductManagement.Infraestructura.EventPublishers;
+using System.Reflection;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -119,6 +120,16 @@ builder.Services.AddMassTransit(x =>
 
 builder.Services.AddScoped<IPublicadorProductoEventos, PublicadorProductoEventos>();
 builder.Services.AddSingleton<IProductoMongoContext, MongoDbContext>();
+builder.Services.AddScoped<IMongoProductoRepositorio, MongoProductoRepositorio>();
+
+
+builder.Services.AddSwaggerGen(c =>
+{
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    c.IncludeXmlComments(xmlPath);
+});
+
 
 
 var app = builder.Build();
@@ -134,5 +145,4 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
-app.Run()
-;
+app.Run();
