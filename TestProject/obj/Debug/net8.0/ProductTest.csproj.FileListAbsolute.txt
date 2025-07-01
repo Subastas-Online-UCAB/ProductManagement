@@ -1,0 +1,6 @@
+C:\Users\Xrixer\Music\ProductManagement\TestProject\obj\Debug\net8.0\ProductTest.csproj.AssemblyReference.cache
+C:\Users\Xrixer\Music\ProductManagement\TestProject\obj\Debug\net8.0\ProductTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xrixer\Music\ProductManagement\TestProject\obj\Debug\net8.0\ProductTest.AssemblyInfoInputs.cache
+C:\Users\Xrixer\Music\ProductManagement\TestProject\obj\Debug\net8.0\ProductTest.AssemblyInfo.cs
+C:\Users\Xrixer\Music\ProductManagement\TestProject\obj\Debug\net8.0\ProductTest.csproj.CoreCompileInputs.cache
+C:\Users\Xrixer\Music\ProductManagement\TestProject\obj\Debug\net8.0\ProductTest.sourcelink.json

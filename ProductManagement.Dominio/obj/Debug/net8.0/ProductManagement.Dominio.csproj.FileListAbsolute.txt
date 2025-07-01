@@ -1,0 +1,12 @@
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\bin\Debug\net8.0\ProductManagement.Dominio.deps.json
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\bin\Debug\net8.0\ProductManagement.Dominio.dll
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\bin\Debug\net8.0\ProductManagement.Dominio.pdb
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.AssemblyInfoInputs.cache
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.AssemblyInfo.cs
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.sourcelink.json
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.dll
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\refint\ProductManagement.Dominio.dll
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.pdb
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ref\ProductManagement.Dominio.dll

@@ -129,3 +129,4 @@ C:\Users\Xrixer\Videos\ProductManagement\TestProject\obj\Debug\net9.0\refint\Pro
 C:\Users\Xrixer\Videos\ProductManagement\TestProject\obj\Debug\net9.0\ProductTest.pdb
 C:\Users\Xrixer\Videos\ProductManagement\TestProject\obj\Debug\net9.0\ProductTest.genruntimeconfig.cache
 C:\Users\Xrixer\Videos\ProductManagement\TestProject\obj\Debug\net9.0\ref\ProductTest.dll
+C:\Users\Xrixer\Videos\ProductManagement\TestProject\obj\Debug\net9.0\ProductTest.sourcelink.json

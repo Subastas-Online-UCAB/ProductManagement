@@ -123,3 +123,4 @@ C:\Users\Xrixer\Videos\ProductManagement\ProductManagement\obj\Debug\net9.0\refi
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement\obj\Debug\net9.0\ProductManagement.pdb
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement\obj\Debug\net9.0\ProductManagement.genruntimeconfig.cache
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement\obj\Debug\net9.0\ref\ProductManagement.dll
+C:\Users\Xrixer\Videos\ProductManagement\ProductManagement\obj\Debug\net9.0\ProductManagement.sourcelink.json
