@@ -2,7 +2,7 @@
 	
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
@@ -21,10 +21,6 @@
     <PackageReference Include="Moq" Version="4.18.4" />
     <PackageReference Include="FluentAssertions" Version="8.3.0" />
     <PackageReference Include="MediatR" Version="12.1.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ProductManagement\ProductManagement.csproj" />
   </ItemGroup>
 
   <ItemGroup>
