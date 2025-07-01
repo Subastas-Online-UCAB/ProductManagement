@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ghCek0+MNvI=",
+  "dgSpecHash": "/8sPJ83KxL0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Xrixer\\Music\\ProductManagement\\ProductManagement.Api\\ProductManagement.Api.csproj",
+  "projectFilePath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Api\\ProductManagement.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Xrixer\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Xrixer\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
