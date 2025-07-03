@@ -14,6 +14,7 @@ using ProductManagement.Infraestructura.Consumidor;
 using ProductManagement.Dominio.Interfaces;
 using ProductManagement.Infraestructura.EventPublishers;
 using System.Reflection;
+using ProductManagement.Infraestructura.Consumidores;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -111,6 +112,12 @@ builder.Services.AddMassTransit(x =>
         cfg.ReceiveEndpoint("producto-creado-evento", e =>
         {
             e.ConfigureConsumer<ProductoCreadoConsumidor>(context);
+        });
+
+        // Consumer normal
+        cfg.ReceiveEndpoint("producto-editado-evento", e =>
+        {
+            e.ConfigureConsumer<ProductoEditadoConsumidor>(context);
         });
 
         // Endpoint para la saga (auto generado por MassTransit)

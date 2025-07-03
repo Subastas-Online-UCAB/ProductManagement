@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E6CE10F-E359-4032-A630-B934AD2E7A99}|ProductManagement.Dominio\\ProductManagement.Dominio.csproj|c:\\users\\xrixer\\videos\\productmanagement\\productmanagement.dominio\\repositorios\\imongoproductorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E6CE10F-E359-4032-A630-B934AD2E7A99}|ProductManagement.Dominio\\ProductManagement.Dominio.csproj|solutionrelative:productmanagement.dominio\\repositorios\\imongoproductorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF22CDA4-C317-4B88-8D3F-58CBE48F2E28}|ProductManagement.Api\\ProductManagement.Api.csproj|c:\\users\\xrixer\\videos\\productmanagement\\productmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF22CDA4-C317-4B88-8D3F-58CBE48F2E28}|ProductManagement.Api\\ProductManagement.Api.csproj|solutionrelative:productmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IMongoProductoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Dominio\\Repositorios\\IMongoProductoRepositorio.cs",
-              "RelativeDocumentMoniker": "ProductManagement.Dominio\\Repositorios\\IMongoProductoRepositorio.cs",
-              "ToolTip": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Dominio\\Repositorios\\IMongoProductoRepositorio.cs",
-              "RelativeToolTip": "ProductManagement.Dominio\\Repositorios\\IMongoProductoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ProductManagement.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Api\\Program.cs",
+              "RelativeToolTip": "ProductManagement.Api\\Program.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAAAJMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:17:47.337Z",
+              "WhenOpened": "2025-07-03T21:33:24.571Z",
               "EditorCaption": ""
             },
             {

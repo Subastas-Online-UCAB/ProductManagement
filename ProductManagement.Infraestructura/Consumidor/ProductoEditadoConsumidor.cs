@@ -21,6 +21,10 @@ namespace ProductManagement.Infraestructura.Consumidores
 
             var filter = Builders<ProductoDocument>.Filter.Eq(s => s.Id, evento.IdProducto);
 
+            var documentoActual = await _mongoContext.Productos
+                .Find(filter)
+                .FirstOrDefaultAsync();
+
             var updatedDocument = new ProductoDocument
             {
                 Id = evento.IdProducto,
@@ -29,6 +33,8 @@ namespace ProductManagement.Infraestructura.Consumidores
                 Tipo = evento.Tipo,
                 Cantidad = evento.Cantidad,
                 IdUsuario = evento.UsuarioId
+
+           
             };
 
             await _mongoContext.Productos.ReplaceOneAsync(

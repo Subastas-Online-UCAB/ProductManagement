@@ -57,7 +57,7 @@ namespace ProductManagement.Api.Controllers
 
 
         /// <summary>
-        /// Edita los datos de un prodcuto existente.
+        /// Edita los datos de un producto existente.
         /// /// <summary>
         /// /// <param name="command">Datos actualizados del producto.</param>
         /// <returns>Resultado de la operación.</returns>
