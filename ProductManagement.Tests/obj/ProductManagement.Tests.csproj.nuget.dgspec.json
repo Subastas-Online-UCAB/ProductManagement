@@ -79,6 +79,10 @@
               "target": "Package",
               "version": "[3.4.0, )"
             },
+            "Supabase.Storage": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[8.1.1, )"
@@ -148,6 +152,9 @@
             "projectReferences": {
               "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Dominio\\ProductManagement.Dominio.csproj": {
                 "projectPath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Dominio\\ProductManagement.Dominio.csproj"
+              },
+              "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Infraestructura\\ProductManagement.Infraestructura.csproj": {
+                "projectPath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Infraestructura\\ProductManagement.Infraestructura.csproj"
               }
             }
           }
@@ -359,6 +366,14 @@
               "target": "Package",
               "version": "[8.4.0, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -382,6 +397,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Supabase.Storage": {
+              "target": "Package",
+              "version": "[2.0.2, )"
             }
           },
           "imports": [

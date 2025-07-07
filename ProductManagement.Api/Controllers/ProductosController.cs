@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using ProductManagement.Aplicacion.Commands;
 using ProductManagement.Aplicacion.Queries;
 using ProductManagement.Dominio.Entidades;
+using ProductManagement.Infraestructura.Repositorios;
+using ProductManagement.Infraestructura.Servicios;
 
 namespace ProductManagement.Api.Controllers
 {
@@ -134,6 +136,8 @@ namespace ProductManagement.Api.Controllers
             var resultado = await _mediator.Send(new GetAllProductosQuery());
             return Ok(resultado);
         }
+
+        
 
 
     }

@@ -18,6 +18,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\ProductManagement.Dominio\ProductManagement.Dominio.csproj" />
+		<ProjectReference Include="..\ProductManagement.Infraestructura\ProductManagement.Infraestructura.csproj" />
 	</ItemGroup>
 
 </Project>

@@ -12,6 +12,8 @@
 		<PackageReference Include="MassTransit" Version="8.4.1" />
 		<PackageReference Include="MassTransit.MongoDb" Version="8.4.0" />
 		<PackageReference Include="MassTransit.RabbitMQ" Version="8.4.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">
 			<PrivateAssets>all</PrivateAssets>
@@ -23,11 +25,16 @@
 		</PackageReference>
 		<PackageReference Include="MongoDB.Driver" Version="3.4.0" />
 		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+		<PackageReference Include="Supabase.Storage" Version="2.0.2" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\ProductManagement.Aplicacion\ProductManagement.Aplicacion.csproj" />
 		<ProjectReference Include="..\ProductManagement.Dominio\ProductManagement.Dominio.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Servicios\" />
 	</ItemGroup>
 
 </Project>
