@@ -13,14 +13,17 @@ namespace ProductManagement.Dominio.Entidades
         public string Descripcion { get; set; }
         public string Tipo { get; set; }
         public decimal Cantidad { get; set; }
+        public string ImagenRuta { get; set; }
         public Guid  IdUsuario { get; set; }
-        public void Editar(string nombre, string descripcion, decimal cantidad)
+
+
+        public void Editar(string nombre, string descripcion, decimal cantidad, string imagenRuta)
         {
             Nombre = nombre;
             Descripcion = descripcion;
             Cantidad = cantidad;
+            ImagenRuta = imagenRuta;
         }
-
     }
 
 }

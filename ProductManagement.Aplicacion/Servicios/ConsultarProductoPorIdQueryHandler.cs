@@ -24,11 +24,12 @@ namespace ProductManagement.Aplicacion.Handlers
 
             return new ProductoCargadoDto
             {
-                Id = producto.IdProducto,
+                IdProducto = producto.IdProducto,
                 Nombre = producto.Nombre,
                 Descripcion= producto.Descripcion,
                 Tipo = producto.Tipo,
                 Cantidad = producto.Cantidad,
+                ImagenRuta = producto.ImagenRuta,
                 IdUsuario = producto.IdUsuario
             };
         }

@@ -43,6 +43,7 @@ C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\M
 C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -176,18 +177,16 @@ C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\r
 C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\ProductManagement.Api.pdb
 C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\ProductManagement.Api.genruntimeconfig.cache
 C:\Users\Xrixer\Music\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\ref\ProductManagement.Api.dll
-C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\xunit.abstractions.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\appsettings.json
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\ProductManagement.Api.staticwebassets.endpoints.json
+C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\xunit.abstractions.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\ProductManagement.Api.exe
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\ProductManagement.Api.deps.json
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\ProductManagement.Api.runtimeconfig.json
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\ProductManagement.Api.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\ProductManagement.Api.pdb
-C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\ProductManagement.Api.xml
-C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\DnsClient.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
@@ -223,6 +222,7 @@ C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -353,7 +353,6 @@ C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\ProductM.40F7747D.Up2Date
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\ProductManagement.Api.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\refint\ProductManagement.Api.dll
-C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\ProductManagement.Api.xml
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\ProductManagement.Api.pdb
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\ProductManagement.Api.genruntimeconfig.cache
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Api\obj\Debug\net8.0\ref\ProductManagement.Api.dll

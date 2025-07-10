@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using ProductManagement.Aplicacion.Commands;
+using ProductManagement.Aplicacion.Servicios;
 using ProductManagement.Dominio.Entidades;
 using ProductManagement.Dominio.Repositorios;
 using ProductManagement.Dominio.Interfaces;
@@ -11,15 +12,20 @@ namespace ProductManagement.Aplicacion.Servicios
     {
         private readonly IAuctionRepository _repository;
         private readonly IPublicadorProductoEventos _publisher;
+        private readonly ImagenService _imagenService;
 
-        public CrearProductoCommandHandler(IAuctionRepository repository, IPublicadorProductoEventos publisher)
+        public CrearProductoCommandHandler(IAuctionRepository repository, IPublicadorProductoEventos publisher, ImagenService imagenService)
         {
             _repository = repository;
             _publisher = publisher;
+            _imagenService = imagenService;
         }
 
         public async Task<Guid> Handle(CrearProductoCommand request, CancellationToken cancellationToken)
         {
+            // 1. Guardar la imagen en el sistema de archivos
+            string rutaImagen = await _imagenService.GuardarImagen(request.Imagen, Guid.NewGuid());
+
             var producto = new Producto
             {
                 IdProducto = Guid.NewGuid(),
@@ -27,6 +33,7 @@ namespace ProductManagement.Aplicacion.Servicios
                 Descripcion = request.Descripcion,
                 Tipo = request.Tipo,
                 Cantidad = request.Cantidad,
+                ImagenRuta = rutaImagen,
                 IdUsuario = request.IdUsuario,
             };
 
@@ -41,6 +48,7 @@ namespace ProductManagement.Aplicacion.Servicios
                 Descripcion = producto.Descripcion,
                 Tipo = producto.Tipo,
                 Cantidad = producto.Cantidad,
+                ImagenRuta = producto.ImagenRuta,
                 IdUsuario = producto.IdUsuario,
             };
 

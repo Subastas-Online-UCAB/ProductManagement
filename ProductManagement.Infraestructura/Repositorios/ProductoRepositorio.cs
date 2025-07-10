@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UsuarioServicio.Infraestructura.Persistencia;
+using ProductManagement.Infraestructura.Persistencia;
 using ProductManagement.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
@@ -83,6 +83,7 @@ namespace ProductManagement.Infraestructura.Repositorios
                 Descripcion = doc.Descripcion,
                 Tipo = doc.Tipo,
                 Cantidad = doc.Cantidad,
+                ImagenRuta = doc.ImagenRuta,    
                 IdUsuario = doc.IdUsuario,
             };
 

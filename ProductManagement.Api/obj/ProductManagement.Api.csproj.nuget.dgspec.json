@@ -79,10 +79,6 @@
               "target": "Package",
               "version": "[3.4.0, )"
             },
-            "Supabase.Storage": {
-              "target": "Package",
-              "version": "[2.0.2, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[8.1.1, )"
@@ -152,9 +148,6 @@
             "projectReferences": {
               "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Dominio\\ProductManagement.Dominio.csproj": {
                 "projectPath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Dominio\\ProductManagement.Dominio.csproj"
-              },
-              "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Infraestructura\\ProductManagement.Infraestructura.csproj": {
-                "projectPath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Infraestructura\\ProductManagement.Infraestructura.csproj"
               }
             }
           }
@@ -187,13 +180,25 @@
               "target": "Package",
               "version": "[8.4.1, )"
             },
+            "MassTransit.Abstractions": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
             },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "MongoDB.Bson": {
               "target": "Package",
@@ -266,16 +271,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "BCrypt.Net-Next": {
-              "target": "Package",
-              "version": "[4.0.3, )"
-            },
-            "MongoDB.Bson": {
-              "target": "Package",
-              "version": "[3.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -370,10 +365,6 @@
               "target": "Package",
               "version": "[2.3.0, )"
             },
-            "Microsoft.AspNetCore.Http.Features": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -397,10 +388,6 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
-            },
-            "Supabase.Storage": {
-              "target": "Package",
-              "version": "[2.0.2, )"
             }
           },
           "imports": [

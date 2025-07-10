@@ -3,7 +3,7 @@ using ProductManagement.Aplicacion.Commands;
 using ProductManagement.Dominio.Repositorios;
 using ProductManagement.Infraestructura.Repositorios;
 using Microsoft.EntityFrameworkCore;
-using UsuarioServicio.Infraestructura.Persistencia;
+using ProductManagement.Infraestructura.Persistencia;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using MassTransit;
 using ProductManagement.Aplicacion.Sagas;
@@ -13,8 +13,8 @@ using ProductManagement.Infraestructura.MongoDB;
 using ProductManagement.Infraestructura.Consumidor;
 using ProductManagement.Dominio.Interfaces;
 using ProductManagement.Infraestructura.EventPublishers;
-using System.Reflection;
-using ProductManagement.Infraestructura.Consumidores;
+using ProductManagement.Aplicacion.Servicios;
+using SubastaService.Infraestructura.Consumidor;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +24,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ImagenService>();
+builder.Services.AddTransient<IRequestHandler<CrearProductoCommand, Guid>, CrearProductoCommandHandler>();
+builder.Services.AddScoped<ProductoEditadoConsumidor>();
 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -92,6 +95,7 @@ builder.Services.AddMassTransit(x =>
 {
     // 1. Registrar consumidores
     x.AddConsumer<ProductoCreadoConsumidor>();
+    x.AddConsumer<ProductoEditadoConsumidor>();
 
     // 2. Registrar la saga
     x.AddSagaStateMachine<ProductoStateMachine, ProductoState>()
@@ -114,7 +118,6 @@ builder.Services.AddMassTransit(x =>
             e.ConfigureConsumer<ProductoCreadoConsumidor>(context);
         });
 
-        // Consumer normal
         cfg.ReceiveEndpoint("producto-editado-evento", e =>
         {
             e.ConfigureConsumer<ProductoEditadoConsumidor>(context);
@@ -127,16 +130,7 @@ builder.Services.AddMassTransit(x =>
 
 builder.Services.AddScoped<IPublicadorProductoEventos, PublicadorProductoEventos>();
 builder.Services.AddSingleton<IProductoMongoContext, MongoDbContext>();
-builder.Services.AddScoped<IMongoProductoRepositorio, MongoProductoRepositorio>();
-
-
-builder.Services.AddSwaggerGen(c =>
-{
-    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    c.IncludeXmlComments(xmlPath);
-});
-
+builder.Services.AddScoped<IMongoAuctionRepository, MongoAuctionRepository>();
 
 
 var app = builder.Build();
@@ -152,4 +146,5 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
-app.Run();
+app.Run()
+;

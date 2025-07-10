@@ -22,6 +22,9 @@ namespace ProductManagement.Infraestructura.MongoDB.Documents
         [BsonElement("cantidad")]
         public decimal Cantidad { get; set; }
 
+        [BsonElement("imagenRuta")]
+        public string ImagenRuta { get; set; }
+
         [BsonElement("idUsuario")]
         [BsonRepresentation(BsonType.String)]
         public Guid IdUsuario { get; set; }

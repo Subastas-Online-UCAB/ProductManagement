@@ -3,7 +3,7 @@ using ProductManagement.Aplicacion.Commands;
 using ProductManagement.Dominio.Entidades;
 using ProductManagement.Dominio.Repositorios;
 
-namespace ProductManagement.Aplicacion.Handlers
+namespace ProductManagement.Aplicacion.Handler
 { 
     public class EliminarProductoCommandHandler : IRequestHandler<EliminarProductoCommand, bool>
     {

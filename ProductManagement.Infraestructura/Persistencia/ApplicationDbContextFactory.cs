@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using UsuarioServicio.Infraestructura.Persistencia;
+//using UsuarioServicio.Infrastructure.Persistencia;
 
 namespace ProductManagement.Infraestructura.Persistencia
 {

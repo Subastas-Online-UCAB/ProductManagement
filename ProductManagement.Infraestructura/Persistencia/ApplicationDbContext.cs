@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ProductManagement.Dominio.Entidades;
 
-namespace UsuarioServicio.Infraestructura.Persistencia
+namespace ProductManagement.Infraestructura.Persistencia
 {
     public class ApplicationDbContext : DbContext
     {
@@ -19,10 +19,9 @@ namespace UsuarioServicio.Infraestructura.Persistencia
         {
             base.OnModelCreating(modelBuilder);
 
-            // Opcional: Cambiar nombre de la tabla si quieres
             modelBuilder.Entity<Producto>().ToTable("Productos");
 
-            // Opcional: Configuraciones de columnas si quieres afinar
+          
             modelBuilder.Entity<Producto>(entity =>
             {
               
@@ -44,6 +43,10 @@ namespace UsuarioServicio.Infraestructura.Persistencia
                 entity.Property(s => s.Cantidad)
                     .IsRequired()
                     .HasColumnType("decimal(18,2)");
+
+                entity.Property(s => s.ImagenRuta)
+                    .IsRequired()
+                    .HasMaxLength(250);
 
 
                 entity.Property(s => s.IdUsuario)

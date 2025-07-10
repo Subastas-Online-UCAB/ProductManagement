@@ -12,7 +12,8 @@ namespace ProductManagement.Dominio.Eventos
         public string Nombre { get; set; } = null!;
         public string Descripcion { get; set; } = null!;
         public string Tipo { get; set; } = null!;
-        public decimal Cantidad { get; set; }
-        public Guid IdUsuario { get; set; }
+        public decimal    Cantidad { get; set; }
+        public string ImagenRuta { get; set; }
+        public Guid   IdUsuario { get; set; }
     }
 }

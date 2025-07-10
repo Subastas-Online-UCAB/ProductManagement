@@ -1,4 +1,9 @@
 ﻿using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using ProductManagement.Aplicacion.Commands;
 using ProductManagement.Dominio.Eventos;
 using ProductManagement.Aplicacion.Comun;
@@ -12,44 +17,59 @@ namespace ProductManagement.Aplicacion.Servicios
     {
         private readonly IAuctionRepository _productoRepository;
         private readonly IPublicadorProductoEventos _eventPublisher;
+        private readonly ImagenService _imagenService;
 
-        public EditarProductoHandler(IAuctionRepository productoRepository, IPublicadorProductoEventos eventPublisher)
+        public EditarProductoHandler(IAuctionRepository productoRepository, IPublicadorProductoEventos eventPublisher, ImagenService imagenService)
         {
             _productoRepository = productoRepository;
             _eventPublisher = eventPublisher;
+            _imagenService = imagenService;
+
         }
 
         public async Task<MessageResponse> Handle(EditarProductoCommand request, CancellationToken cancellationToken)
         {
-            // Buscar el producto 
             var producto = await _productoRepository.ObtenerPorIdAsync(request.ProductoId, cancellationToken);
             if (producto == null)
                 return MessageResponse.CrearError("El Producto no existe.");
 
-            // Validar que el usuario sea dueño del producto
-            if (producto.IdUsuario != request.UsuarioId)
-                return MessageResponse.CrearError("No tienes permiso para editar esta subasta.");
+            // 2. Manejar la imagen (si se proporciona una nueva)
+            string rutaImagen = producto.ImagenRuta;
+            if (request.Imagen != null && request.Imagen.Length > 0)
+            {
+                // Eliminar la imagen anterior si existe
+                if (!string.IsNullOrEmpty(rutaImagen))
+                {
+                    _imagenService.EliminarImagen(rutaImagen);
+                }
+                // Guardar la nueva imagen
+                rutaImagen = await _imagenService.GuardarImagen(request.Imagen, request.ProductoId);
+            }
 
-            // Aplicar los cambios
+            // 3. Actualizar el producto
             producto.Editar(
                 request.Nombre,
                 request.Descripcion,
-                request.Cantidad
+                request.Cantidad,
+                rutaImagen
             );
+            producto.Tipo = request.Tipo; // Asignar campo adicional si es necesario
 
-            // Persistir cambios
+            // 4. Persistir cambios
             await _productoRepository.ActualizarAsync(producto, cancellationToken);
 
-            // Publicar evento si es necesario
-            await _eventPublisher.PublicarProductoEditado(new ProductoEditado
+            // 5. Publicar evento de actualización
+            await _eventPublisher.PublicarProductoActualizado(new ProductoActualizado
             {
-                IdProducto = producto.IdProducto,
+                Id = producto.IdProducto,
                 Nombre = producto.Nombre,
                 Descripcion = producto.Descripcion,
                 Tipo = producto.Tipo,
                 Cantidad = producto.Cantidad,
-                UsuarioId = producto.IdUsuario
+                ImagenRuta = producto.ImagenRuta,
+                IdUsuario = producto.IdUsuario
             });
+
 
             return MessageResponse.CrearExito("Producto editado exitosamente.");
         }

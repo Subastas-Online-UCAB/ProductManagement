@@ -26,6 +26,7 @@ namespace ProductManagement.Infraestructura.Consumidor
                 Descripcion = mensaje.Descripcion,
                 Tipo = mensaje.Tipo,
                 Cantidad = mensaje.Cantidad,
+                ImagenRuta = mensaje.ImagenRuta,
                 IdUsuario = mensaje.IdUsuario,
             };
 

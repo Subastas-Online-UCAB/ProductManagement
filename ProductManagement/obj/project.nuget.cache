@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7k8WfzXHfdk=",
+  "dgSpecHash": "V1mG+EoBLjw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
+  "projectFilePath": "C:\\Users\\Xrixer\\Music\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Xrixer\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Xrixer\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",

@@ -11,6 +11,6 @@ namespace ProductManagement.Dominio.Interfaces
     public interface IPublicadorProductoEventos
     {
         Task PublicarProductoCreado(ProductoCreado evento);
-        Task PublicarProductoEditado(ProductoEditado evento);
+        Task PublicarProductoActualizado(ProductoActualizado evento);
     }
 }

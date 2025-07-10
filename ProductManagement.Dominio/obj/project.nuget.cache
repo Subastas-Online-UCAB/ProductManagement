@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o0wQTOei09E=",
+  "dgSpecHash": "u+e3M9Uk7Vg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Dominio\\ProductManagement.Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Xrixer\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
-    "C:\\Users\\Xrixer\\.nuget\\packages\\mongodb.bson\\3.4.0\\mongodb.bson.3.4.0.nupkg.sha512",
-    "C:\\Users\\Xrixer\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
-    "C:\\Users\\Xrixer\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

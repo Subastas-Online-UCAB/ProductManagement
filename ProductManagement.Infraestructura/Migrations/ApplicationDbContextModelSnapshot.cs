@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using UsuarioServicio.Infraestructura.Persistencia;
+using ProductManagement.Infraestructura.Persistencia;
 
 #nullable disable
 
@@ -38,6 +38,11 @@ namespace ProductManagement.Infraestructura.Migrations
 
                     b.Property<Guid>("IdUsuario")
                         .HasColumnType("uuid");
+
+                    b.Property<string>("ImagenRuta")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("character varying(250)");
 
                     b.Property<string>("Nombre")
                         .IsRequired()

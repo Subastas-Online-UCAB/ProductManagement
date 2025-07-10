@@ -7,9 +7,9 @@ namespace ProductManagement.Aplicacion.Handlers
 {
     public class GetAllProductosHandler : IRequestHandler<GetAllProductosQuery, List<Producto>>
     {
-        private readonly IMongoProductoRepositorio _repository;
+        private readonly IMongoAuctionRepository _repository;
 
-        public GetAllProductosHandler(IMongoProductoRepositorio repository)
+        public GetAllProductosHandler(IMongoAuctionRepository repository)
         {
             _repository = repository;
         }

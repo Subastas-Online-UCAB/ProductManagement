@@ -24,7 +24,7 @@ namespace ProductManagement.Infraestructura.EventPublishers
         }
 
 
-        public async Task PublicarProductoEditado(ProductoEditado evento)
+        public async Task PublicarProductoActualizado(ProductoActualizado evento)
         {
             await _publishEndpoint.Publish(evento);
         }

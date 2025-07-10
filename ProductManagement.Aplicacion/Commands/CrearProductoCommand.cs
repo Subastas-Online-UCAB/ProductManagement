@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace ProductManagement.Aplicacion.Commands
         public string Descripcion { get; set; }
         public string Tipo { get; set; }
         public decimal Cantidad { get; set; }
+        public IFormFile Imagen { get; set; }
         public Guid IdUsuario { get; set; }
     }
 }

@@ -4,9 +4,9 @@ using ProductManagement.Dominio.Eventos;
 using ProductManagement.Infraestructura.MongoDB;
 using ProductManagement.Infraestructura.MongoDB.Documents;
 
-namespace ProductManagement.Infraestructura.Consumidores
+namespace SubastaService.Infraestructura.Consumidor
 {
-    public class ProductoEditadoConsumidor : IConsumer<ProductoEditado>
+    public class ProductoEditadoConsumidor : IConsumer<ProductoActualizado>
     {
         private readonly IProductoMongoContext _mongoContext;
 
@@ -15,32 +15,32 @@ namespace ProductManagement.Infraestructura.Consumidores
             _mongoContext = mongoContext;
         }
 
-        public async Task Consume(ConsumeContext<ProductoEditado> context)
+        public async Task Consume(ConsumeContext<ProductoActualizado> context)
         {
             var evento = context.Message;
 
-            var filter = Builders<ProductoDocument>.Filter.Eq(s => s.Id, evento.IdProducto);
+            var filter = Builders<ProductoDocument>.Filter.Eq(s => s.Id, evento.Id);
 
             var documentoActual = await _mongoContext.Productos
                 .Find(filter)
                 .FirstOrDefaultAsync();
 
+
             var updatedDocument = new ProductoDocument
             {
-                Id = evento.IdProducto,
+                Id = evento.Id,
                 Nombre = evento.Nombre,
                 Descripcion = evento.Descripcion,
                 Tipo = evento.Tipo,
                 Cantidad = evento.Cantidad,
-                IdUsuario = evento.UsuarioId
-
-           
+                ImagenRuta = evento.ImagenRuta,
+                IdUsuario = evento.IdUsuario,
             };
 
             await _mongoContext.Productos.ReplaceOneAsync(
                 filter,
                 updatedDocument,
-                new ReplaceOptions { IsUpsert = true } // por si aún no existe en Mongo
+                new ReplaceOptions { IsUpsert = true }
             );
         }
     }
