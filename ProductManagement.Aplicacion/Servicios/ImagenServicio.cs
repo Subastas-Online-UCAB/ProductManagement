@@ -10,37 +10,43 @@ using Microsoft.Extensions.Configuration;
 namespace ProductManagement.Aplicacion.Servicios
 {
     public class ImagenService
-{
-    private readonly string _rutaBase = @"C:\Users\Xrixer\Pictures\Proyecto";
-
-    public async Task<string> GuardarImagen(IFormFile imagen, Guid IdProducto)
     {
-        if (imagen == null || imagen.Length == 0)
-            throw new ArgumentException("La imagen no es válida.");
+        private readonly string _rutaBase = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
 
-        // Crear directorio si no existe
-        Directory.CreateDirectory(_rutaBase);
-
-        // Generar nombre único para la imagen (ej: "producto-{id}.jpg")
-        string extension = Path.GetExtension(imagen.FileName);
-        string nombreArchivo = $"producto-{IdProducto}{extension}";
-        string rutaCompleta = Path.Combine(_rutaBase, nombreArchivo);
-
-        // Guardar la imagen
-        using (var stream = new FileStream(rutaCompleta, FileMode.Create))
+        public async Task<string> GuardarImagen(IFormFile imagen, Guid IdProducto)
         {
-            await imagen.CopyToAsync(stream);
+            if (imagen == null || imagen.Length == 0)
+                throw new ArgumentException("La imagen no es válida.");
+
+            // Asegurar que el directorio exista
+            Directory.CreateDirectory(_rutaBase);
+
+            // Crear nombre único
+            string extension = Path.GetExtension(imagen.FileName);
+            string nombreArchivo = $"producto-{IdProducto}{extension}";
+            string rutaFisica = Path.Combine(_rutaBase, nombreArchivo);
+
+            // Guardar la imagen físicamente
+            using (var stream = new FileStream(rutaFisica, FileMode.Create))
+            {
+                await imagen.CopyToAsync(stream);
+            }
+
+            // Retornar ruta pública
+            return $"/uploads/{nombreArchivo}";
         }
 
-        return rutaCompleta; // Opcional: Puedes devolver solo el nombreArchivo o ruta relativa
-    }
-
-        public void EliminarImagen(string rutaImagen)
+        public void EliminarImagen(string rutaPublica)
         {
-            if (File.Exists(rutaImagen))
+            // Convertir la ruta pública a ruta física
+            var nombreArchivo = Path.GetFileName(rutaPublica);
+            var rutaFisica = Path.Combine(_rutaBase, nombreArchivo);
+
+            if (File.Exists(rutaFisica))
             {
-                File.Delete(rutaImagen);
+                File.Delete(rutaFisica);
             }
         }
     }
+
 }

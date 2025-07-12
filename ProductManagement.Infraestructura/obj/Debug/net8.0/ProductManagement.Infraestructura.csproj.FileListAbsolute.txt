@@ -38,3 +38,23 @@ C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Infraestructura\obj\D
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.pdb
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.genruntimeconfig.cache
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ref\ProductManagement.Infraestructura.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\bin\Debug\net8.0\ProductManagement.Infraestructura.deps.json
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\bin\Debug\net8.0\ProductManagement.Infraestructura.runtimeconfig.json
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\bin\Debug\net8.0\ProductManagement.Infraestructura.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\bin\Debug\net8.0\ProductManagement.Infraestructura.pdb
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\bin\Debug\net8.0\ProductManagement.Aplicacion.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\bin\Debug\net8.0\ProductManagement.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\bin\Debug\net8.0\ProductManagement.Aplicacion.pdb
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\bin\Debug\net8.0\ProductManagement.Dominio.pdb
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.csproj.AssemblyReference.cache
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.AssemblyInfoInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.AssemblyInfo.cs
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.sourcelink.json
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductM.444CB2DD.Up2Date
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\refint\ProductManagement.Infraestructura.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.pdb
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ProductManagement.Infraestructura.genruntimeconfig.cache
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Infraestructura\obj\Debug\net8.0\ref\ProductManagement.Infraestructura.dll

@@ -1,7 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF22CDA4-C317-4B88-8D3F-58CBE48F2E28}|ProductManagement.Api\\ProductManagement.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\otras apis\\productmanagement\\productmanagement.api\\controladores\\productoscontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF22CDA4-C317-4B88-8D3F-58CBE48F2E28}|ProductManagement.Api\\ProductManagement.Api.csproj|solutionrelative:productmanagement.api\\controladores\\productoscontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A31EEC7-7289-4579-AFE7-CCD16EDB201A}|ProductManagement.Infraestructura\\ProductManagement.Infraestructura.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\otras apis\\productmanagement\\productmanagement.infraestructura\\repositorios\\productorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A31EEC7-7289-4579-AFE7-CCD16EDB201A}|ProductManagement.Infraestructura\\ProductManagement.Infraestructura.csproj|solutionrelative:productmanagement.infraestructura\\repositorios\\productorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C877F35B-60C0-4557-A1A3-E717FA5E2A2A}|ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\otras apis\\productmanagement\\productmanagement.aplicacion\\commands\\editarproductocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C877F35B-60C0-4557-A1A3-E717FA5E2A2A}|ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj|solutionrelative:productmanagement.aplicacion\\commands\\editarproductocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C877F35B-60C0-4557-A1A3-E717FA5E2A2A}|ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\otras apis\\productmanagement\\productmanagement.aplicacion\\servicios\\editarproductohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C877F35B-60C0-4557-A1A3-E717FA5E2A2A}|ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj|solutionrelative:productmanagement.aplicacion\\servicios\\editarproductohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF22CDA4-C317-4B88-8D3F-58CBE48F2E28}|ProductManagement.Api\\ProductManagement.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\otras apis\\productmanagement\\productmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF22CDA4-C317-4B88-8D3F-58CBE48F2E28}|ProductManagement.Api\\ProductManagement.Api.csproj|solutionrelative:productmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C877F35B-60C0-4557-A1A3-E717FA5E2A2A}|ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\otras apis\\productmanagement\\productmanagement.aplicacion\\servicios\\imagenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C877F35B-60C0-4557-A1A3-E717FA5E2A2A}|ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj|solutionrelative:productmanagement.aplicacion\\servicios\\imagenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF22CDA4-C317-4B88-8D3F-58CBE48F2E28}|ProductManagement.Api\\ProductManagement.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\otras apis\\productmanagement\\productmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF22CDA4-C317-4B88-8D3F-58CBE48F2E28}|ProductManagement.Api\\ProductManagement.Api.csproj|solutionrelative:productmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A31EEC7-7289-4579-AFE7-CCD16EDB201A}|ProductManagement.Infraestructura\\ProductManagement.Infraestructura.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\otras apis\\productmanagement\\productmanagement.infraestructura\\persistencia\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A31EEC7-7289-4579-AFE7-CCD16EDB201A}|ProductManagement.Infraestructura\\ProductManagement.Infraestructura.csproj|solutionrelative:productmanagement.infraestructura\\persistencia\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A31EEC7-7289-4579-AFE7-CCD16EDB201A}|ProductManagement.Infraestructura\\ProductManagement.Infraestructura.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\otras apis\\productmanagement\\productmanagement.infraestructura\\persistencia\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A31EEC7-7289-4579-AFE7-CCD16EDB201A}|ProductManagement.Infraestructura\\ProductManagement.Infraestructura.csproj|solutionrelative:productmanagement.infraestructura\\persistencia\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +46,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Infraestructura\\Repositorios\\ProductoRepositorio.cs",
+              "RelativeDocumentMoniker": "ProductManagement.Infraestructura\\Repositorios\\ProductoRepositorio.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Infraestructura\\Repositorios\\ProductoRepositorio.cs",
+              "RelativeToolTip": "ProductManagement.Infraestructura\\Repositorios\\ProductoRepositorio.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:16:05.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditarProductoHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Aplicacion\\Servicios\\EditarProductoHandler.cs",
+              "RelativeDocumentMoniker": "ProductManagement.Aplicacion\\Servicios\\EditarProductoHandler.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Aplicacion\\Servicios\\EditarProductoHandler.cs",
+              "RelativeToolTip": "ProductManagement.Aplicacion\\Servicios\\EditarProductoHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC0AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T03:53:57.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditarProductoCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Aplicacion\\Commands\\EditarProductoCommand.cs",
+              "RelativeDocumentMoniker": "ProductManagement.Aplicacion\\Commands\\EditarProductoCommand.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Aplicacion\\Commands\\EditarProductoCommand.cs",
+              "RelativeToolTip": "ProductManagement.Aplicacion\\Commands\\EditarProductoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T03:12:55.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductosControlador.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Api\\Controladores\\ProductosControlador.cs",
+              "RelativeDocumentMoniker": "ProductManagement.Api\\Controladores\\ProductosControlador.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Api\\Controladores\\ProductosControlador.cs",
+              "RelativeToolTip": "ProductManagement.Api\\Controladores\\ProductosControlador.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwD8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T02:00:04.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ProductManagement.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Api\\Program.cs",
+              "RelativeToolTip": "ProductManagement.Api\\Program.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAgwJYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:42:22.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductManagement.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Api\\appsettings.json",
+              "RelativeToolTip": "ProductManagement.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T23:13:43.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Infraestructura\\Persistencia\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "ProductManagement.Infraestructura\\Persistencia\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Infraestructura\\Persistencia\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "ProductManagement.Infraestructura\\Persistencia\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T23:12:57.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Infraestructura\\Persistencia\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProductManagement.Infraestructura\\Persistencia\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Infraestructura\\Persistencia\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProductManagement.Infraestructura\\Persistencia\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T23:12:37.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImagenServicio.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Aplicacion\\Servicios\\ImagenServicio.cs",
+              "RelativeDocumentMoniker": "ProductManagement.Aplicacion\\Servicios\\ImagenServicio.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Aplicacion\\Servicios\\ImagenServicio.cs",
+              "RelativeToolTip": "ProductManagement.Aplicacion\\Servicios\\ImagenServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T23:08:17.615Z",
+              "EditorCaption": ""
             }
           ]
         }

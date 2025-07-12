@@ -132,6 +132,15 @@ builder.Services.AddScoped<IPublicadorProductoEventos, PublicadorProductoEventos
 builder.Services.AddSingleton<IProductoMongoContext, MongoDbContext>();
 builder.Services.AddScoped<IMongoAuctionRepository, MongoAuctionRepository>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000") // aquí puedes agregar otros orígenes si es necesario
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -143,6 +152,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseCors("AllowFrontend");
+
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

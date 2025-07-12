@@ -1223,23 +1223,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Xrixer\\.nuget\\packages\\": {},
+    "C:\\Users\\ejic2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj",
       "projectName": "ProductManagement.Aplicacion",
-      "projectPath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\Xrixer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Aplicacion\\obj\\",
+      "projectPath": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Aplicacion\\ProductManagement.Aplicacion.csproj",
+      "packagesPath": "C:\\Users\\ejic2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Xrixer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ejic2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1248,15 +1248,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Dominio\\ProductManagement.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Xrixer\\Videos\\ProductManagement\\ProductManagement.Dominio\\ProductManagement.Dominio.csproj"
+            "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Dominio\\ProductManagement.Dominio.csproj": {
+              "projectPath": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Dominio\\ProductManagement.Dominio.csproj"
             }
           }
         }
@@ -1330,7 +1329,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -1339,7 +1338,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.5.0 was resolved.",
+      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requiere MediatR (>= 11.0.0 && < 12.0.0), pero la versión MediatR 12.5.0 ya se resolvió.",
       "libraryId": "MediatR",
       "targetGraphs": [
         "net8.0"

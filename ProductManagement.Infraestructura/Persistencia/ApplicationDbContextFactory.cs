@@ -15,7 +15,7 @@ namespace ProductManagement.Infraestructura.Persistencia
         {
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
 
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=ProductosDb;Username=postgres;Password=admin");
+            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=ProductosDb;Username=postgres;Password=161171");
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }

@@ -66,6 +66,13 @@ namespace ProductManagement.Infraestructura.Repositorios
             if (producto is null)
                 throw new Exception("Producto no encontrado.");
 
+            _context.Productos.Remove(producto);
+            await _context.SaveChangesAsync(cancellationToken);
+
+
+            var filter = Builders<ProductoDocument>.Filter.Eq(p => p.Id, idProducto);
+            await _mongoContext.Productos.DeleteOneAsync(filter, cancellationToken);
+
         }
 
         public async Task<Producto?> ObtenerProductoPorIdAsync(Guid id, CancellationToken cancellationToken)

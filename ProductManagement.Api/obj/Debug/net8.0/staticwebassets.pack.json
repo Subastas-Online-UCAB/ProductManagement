@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Api\\wwwroot\\uploads\\producto-39e2ec53-be9b-4e9f-a99e-abc39b9fda1d.png",
+      "PackagePath": "staticwebassets\\uploads\\producto-39e2ec53-be9b-4e9f-a99e-abc39b9fda1d.png"
+    },
+    {
+      "Id": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Api\\wwwroot\\uploads\\producto-851b545b-2050-46ef-89cc-418b0f5d8488.png",
+      "PackagePath": "staticwebassets\\uploads\\producto-851b545b-2050-46ef-89cc-418b0f5d8488.png"
+    },
+    {
+      "Id": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Api\\wwwroot\\uploads\\producto-b20b5b37-d99c-4639-89d5-89549b72df35.png",
+      "PackagePath": "staticwebassets\\uploads\\producto-b20b5b37-d99c-4639-89d5-89549b72df35.png"
+    },
+    {
+      "Id": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\Otras Apis\\ProductManagement\\ProductManagement.Api\\wwwroot\\uploads\\producto-ef9b9a25-27fb-4895-ab5f-6c7c00724780.png",
+      "PackagePath": "staticwebassets\\uploads\\producto-ef9b9a25-27fb-4895-ab5f-6c7c00724780.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProductManagement.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProductManagement.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProductManagement.Api.props",
+      "PackagePath": "build\\ProductManagement.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProductManagement.Api.props",
+      "PackagePath": "buildMultiTargeting\\ProductManagement.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProductManagement.Api.props",
+      "PackagePath": "buildTransitive\\ProductManagement.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

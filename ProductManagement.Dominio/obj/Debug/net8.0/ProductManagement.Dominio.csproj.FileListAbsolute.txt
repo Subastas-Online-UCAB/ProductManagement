@@ -22,3 +22,15 @@ C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Dominio\obj\Debug\net
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\refint\ProductManagement.Dominio.dll
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.pdb
 C:\Users\Xrixer\Videos\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ref\ProductManagement.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\bin\Debug\net8.0\ProductManagement.Dominio.deps.json
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\bin\Debug\net8.0\ProductManagement.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\bin\Debug\net8.0\ProductManagement.Dominio.pdb
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.AssemblyInfoInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.AssemblyInfo.cs
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.sourcelink.json
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\refint\ProductManagement.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ProductManagement.Dominio.pdb
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Dominio\obj\Debug\net8.0\ref\ProductManagement.Dominio.dll

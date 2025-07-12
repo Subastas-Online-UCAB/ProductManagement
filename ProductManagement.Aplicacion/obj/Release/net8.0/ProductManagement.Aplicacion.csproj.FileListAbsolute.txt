@@ -1,0 +1,16 @@
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\bin\Release\net8.0\ProductManagement.Aplicacion.deps.json
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\bin\Release\net8.0\ProductManagement.Aplicacion.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\bin\Release\net8.0\ProductManagement.Aplicacion.pdb
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\bin\Release\net8.0\ProductManagement.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\bin\Release\net8.0\ProductManagement.Dominio.pdb
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\ProductManagement.Aplicacion.csproj.AssemblyReference.cache
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\ProductManagement.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\ProductManagement.Aplicacion.AssemblyInfoInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\ProductManagement.Aplicacion.AssemblyInfo.cs
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\ProductManagement.Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\ProductManagement.Aplicacion.sourcelink.json
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\ProductM.C13BA213.Up2Date
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\ProductManagement.Aplicacion.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\refint\ProductManagement.Aplicacion.dll
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\ProductManagement.Aplicacion.pdb
+C:\Users\ejic2\OneDrive\Escritorio\Otras Apis\ProductManagement\ProductManagement.Aplicacion\obj\Release\net8.0\ref\ProductManagement.Aplicacion.dll
